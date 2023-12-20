@@ -11,6 +11,10 @@
 				<div class="col"><input type="text" class="form-control" name="prenom" placeholder="prenom" required="true"></div>
 			</div>        	
         </div>
+
+
+
+		
         
         <div class="form-group">
         	<input type="email" class="form-control" name="email" placeholder="Enter your Email " required="true">
