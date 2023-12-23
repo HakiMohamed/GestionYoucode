@@ -14,6 +14,7 @@ ob_start(); ?>
                     </div>
                        <div class="col-sm-7" align="right">
                        <a href="index.php?action=create" class="btn btn-secondary"><i class="material-icons">&#xE147;</i> <span>Ajouter utilisateur</span></a>
+                       <a href="index.php?action=logout" class="btn btn-warning"><i class="material-icons">&#xE147;</i> <span>Logout</span></a>
                                         
                     </div>
                 </div>
