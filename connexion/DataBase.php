@@ -7,6 +7,7 @@ require("config/config.php");
     public function __construct($db_name=DB_NAME,$db_host=DB_HOST,$db_user=DB_USERNAME,$db_pass=DB_PASSWORD){
 
        try {
+         
 
           $this->db_database_connect = new PDO("mysql:host={$db_host};dbname={$db_name}", $db_user, $db_pass);
 

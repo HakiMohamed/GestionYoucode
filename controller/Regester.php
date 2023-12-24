@@ -6,6 +6,7 @@ class Regester
     {
         include 'view/regester.php';
     }
+    
     function loginPage()
     {
         include 'view/login.php';

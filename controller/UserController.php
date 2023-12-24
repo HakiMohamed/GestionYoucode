@@ -7,6 +7,7 @@
             $result= $user->selectAllusers();
             require_once 'view/liste_user.php';           
            }
+           
 
            public   function  create ()
                {

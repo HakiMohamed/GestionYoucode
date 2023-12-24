@@ -5,6 +5,7 @@
 
 
 class User
+
 {
     private $id;
     private $nom;
@@ -89,5 +90,5 @@ class User
 
 
 
-    
+
 }

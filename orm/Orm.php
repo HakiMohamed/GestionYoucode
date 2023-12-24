@@ -13,6 +13,8 @@
                 echo "Failed: " . $e->getMessage();
             }
         }
+
+        
     
         public function selectAll($table)
         {

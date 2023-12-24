@@ -1,6 +1,8 @@
 <?php 
   class Autoloader{
     public static function autoload(){
+
+        
         spl_autoload_register(function($className) { 
             
             $file = 'classes/'.$className.'.php';
