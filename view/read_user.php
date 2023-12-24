@@ -20,6 +20,8 @@
 <tbody>
 
 
+
+
  <tr>
     <th>First Name</th>
     <td><?= $result->getFname() ?></td>

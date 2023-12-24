@@ -17,6 +17,8 @@ if (isset($_SESSION["role"])) {
         $a->insert();
       } else if (isset($_GET['delid'])) {
         $a = new UserController(); 
+
+
         
         $a->delete();
       } else if (isset($_GET['editid'])) {

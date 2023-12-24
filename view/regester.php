@@ -19,6 +19,8 @@
         	<input type="password" class="form-control" name="password" placeholder="Enter your Password " required="true">
         </div>
 	
+
+		
       
 		<div class="form-group">
             <button type="submit" class="btn btn-success btn-lg btn-block" name="submit">Regester</button>
