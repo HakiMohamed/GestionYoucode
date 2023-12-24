@@ -9,6 +9,7 @@ require("config/config.php");
        try {
          
 
+
           $this->db_database_connect = new PDO("mysql:host={$db_host};dbname={$db_name}", $db_user, $db_pass);
 
        }

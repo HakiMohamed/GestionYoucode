@@ -7,10 +7,11 @@
             $result= $user->selectAllusers();
             require_once 'view/liste_user.php';           
            }
-           
+
 
            public   function  create ()
                {
+                
                 
                 require_once 'view/create_page.php';         
               }
